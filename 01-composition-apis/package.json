@@ -1,0 +1,23 @@
+{
+  "name": "01-composition-apis",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "author": "gb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync . -w --no-notify"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "02-webpack-based",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "author": "gb",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.production",
+    "dev": "webpack-dev-server --env.development"
+  },
+  "dependencies": {
+    "todomvc-app-css": "2.3.0",
+    "vue": "3.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "3.0.0-beta.3",
+    "css-loader": "3.5.2",
+    "html-webpack-plugin": "4.2.0",
+    "style-loader": "1.1.4",
+    "vue-loader": "16.0.0-alpha.3",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}
